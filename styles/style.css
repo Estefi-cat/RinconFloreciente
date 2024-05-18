@@ -56,3 +56,11 @@ body {
 .conteiner .sidebar{
     grid-column: span 1;
 }
+.tipos-flores{
+    text-align: center;
+
+}
+a {
+    text-decoration: none;
+    color: green;
+}
