@@ -1,10 +1,10 @@
 *{
-    margin: 0%;
+    margin: 0;
     padding: 0;
 }
 
 body {
-    --dot-bg: #a0e571;
+    --dot-bg: #376e50;
     --dot-color: white;
     --dot-size: 1px;
     --dot-space: 22px;
@@ -45,8 +45,28 @@ body {
 .conteiner .header,
 .conteiner .footer{
     grid-column: 1/4;
-    background: #1b5b0c;
+    background: #09342f;
     color: #fff;
+}
+
+.contenido .h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+    
+}
+.contenido .articulo .lead,
+.contenido .articulo p {
+    padding: 20px;
+    text-align: justify;
+}
+
+.contenido .articulo p{
+    margin-bottom: 30px;
+}
+
+.contenido .articulo .lead{
+    font-size: 20px;
 }
 
 .conteiner .contenido{
