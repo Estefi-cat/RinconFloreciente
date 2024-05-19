@@ -1,5 +1,5 @@
 *{
-    margin: 0%;
+    margin: 0;
     padding: 0;
 }
 
@@ -39,7 +39,7 @@ body {
 .conteiner > .footer{
     background: white;
     padding: 20px;
-    border: 1px solid black;
+    border: 1px solid rgb(5, 129, 57);
 }
 
 .conteiner .header,
@@ -56,9 +56,8 @@ body {
 .conteiner .sidebar{
     grid-column: span 1;
 }
-.tipos-flores{
+.conteiner .tiposDeFlores {
     text-align: center;
-
 }
 a {
     text-decoration: none;
