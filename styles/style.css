@@ -5,6 +5,7 @@
     font-size: 20px;
 }
 
+
 body {
     --dot-bg: #376e50;
     --dot-color: white;
@@ -39,6 +40,7 @@ body {
 .header .logo img{
     height: 70px;
     width: auto;
+    border-radius: 10px;
 }
 
 .header .nav-links{
@@ -66,11 +68,57 @@ body {
 
 /*FIN DE CONFIGURACION DEL NAV*/
 
+/*CONFIGURACION DEL NAV DEL TIPO DE FLORES*/
+
+.navFlores{
+    display: block;
+    justify-content:center;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    
+}
+
+.navFlores h2{
+    text-align: center;
+    text-shadow: 0 0 30px #09342f;
+}
+
+.navFlores ul{
+    list-style: none;
+    
+
+}
+
+.navFlores ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.navFlores ul li:hover{
+    transform: scale(1.1);
+}
+
+.navFlores ul a{
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid green;
+    border-radius: 10px;
+    
+}
+
+.navFlores ul a:hover{
+    background: #09ff78;
+}
+
+/*FIN DE CONFIGURACION DE NAV DEL TIPO DE FLORES*/
+
 /*CONFIGURACION DEL INDEX*/
 
 .imagenesIndex{
     width: 500px;
     height: auto;
+    border-radius: 10px;
 }
 
 .contenido .articulo .noticiaTitulo{
@@ -88,13 +136,13 @@ body {
 }
 
 .contenido .articulo{
-    text-align: center;
+    text-align:center;
 }
 
 .contenido .articulo .lead,
 .contenido .articulo p {
     padding: 20px;
-    text-align: justify;
+    text-align: left;
 }
 
 .contenido .articulo p{
@@ -142,11 +190,35 @@ body {
     grid-column: span 1;
     background: #73a068;
 }
-/*FIN CONFIGURACION GRID*/
 
-.conteiner .tiposDeFlores {
-    text-align: center;
+.conteiner .sidebar div{
+    position: fixed;
+    width: 280px;
 }
+/*FIN CONFIGURACION GRID*/
+.conteiner .tiposDeFlores img{
+    height: auto;
+    padding: 25px;
+    margin: 30px 0px 20px 150px;
+    border-radius: 40px;
+    box-shadow: inset 0px 0px 10px 0 rgba(20, 20, 20, 0.2);
+}
+
+.conteiner .contenido .tiposDeFlores p{
+    border-bottom: 3px dotted green;
+    padding-bottom: 10px;;
+}
+
+#articulo1, #articulo2, #articulo3{
+    font-size: 30px;
+    text-shadow: 0 0 30px #09342f;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px dashed #09342f;
+	border-radius: 10px;
+}
+
+
 a {
     text-decoration: none;
     color: green;
