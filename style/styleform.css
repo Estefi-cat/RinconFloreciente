@@ -19,6 +19,8 @@ body {
 		var(--dot-color);
     font-family: "Montserrat", sans-serif;
 	
+	
+	
 }
 
 /*CONFIGURACION DEL NAV*/
@@ -72,7 +74,7 @@ body {
 /*FIN DE CONFIGURACION DEL NAV*/
 
 .conteiner{
-    background: white;
+    background: #f5e1ce;
     width: 90%;
     max-width: 1000px;
     margin: 2em auto;
@@ -171,6 +173,43 @@ h2{
 	z-index: 100;
 	font-size: 16px;
 	opacity:0;
+}
+
+.formulario_cultivo {
+	align-items : center;
+	font-size: 16px;
+	border-radius: 10px;
+	border: 10px solid transparent;
+
+}
+
+.content-select select {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.content-select select::-ms-expand {
+    display: none;
+}
+
+.content-select select{
+	
+	font-size: 1em;
+	width: 100%;
+	background: #fff;
+	border: 10px solid transparent;
+	border-radius: 10px;
+	height: 50px;
+	line-height: 45px;
+	padding: 0 40px 0 10px;
+	transition: .3s ease all;
+}
+
+.content-select :focus-visible {
+	border: 3px solid #1b5b0c;
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
 }
 
 .formulario_comentarios {
