@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+body {
+    --dot-bg: #376e50;
+    --dot-color: white;
+    --dot-size: 1px;
+    --dot-space: 22px;
+	background:
+		linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		var(--dot-color);
+}
+
+/*CONFIGURACION DEL NAV*/
+
+.titulo h1{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 3em;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    margin-right: auto;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    color: #4cd087;
+
+}
+
+/*FIN DE CONFIGURACION DEL NAV*/
+
+/*CONFIGURACION DEL INDEX*/
+
+.imagenesIndex{
+    width: 500px;
+    height: auto;
+}
+
+.contenido .articulo .noticiaTitulo{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.contenido .h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px; 
+    text-shadow: 0 0 30px #09342f;  
+}
+
+.contenido .articulo{
+    text-align: center;
+}
+
+.contenido .articulo .lead,
+.contenido .articulo p {
+    padding: 20px;
+    text-align: justify;
+}
+
+.contenido .articulo p{
+    margin-bottom: 30px;
+}
+
+.contenido .articulo .lead{
+    font-size: 20px;
+}
+
+/*FIN CONFIGURACION DEL INDEX*/
+
+/*CONFIGURACION GRID*/
+.conteiner{
+    background: white;
+    width: 90%;
+    max-width: 1000px;
+    margin: 2em auto;
+
+    display: grid;
+    gap: 1.6em;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.conteiner > .header,
+.conteiner > .contenido,
+.conteiner > .sidebar,
+.conteiner > .footer{
+    background: white;
+    padding: 20px;
+}
+
+.conteiner .header,
+.conteiner .footer{
+    grid-column: 1/4;
+    background: #09342f;
+    color: #fff;
+}
+
+.conteiner .contenido{
+    grid-column: span 2;
+}
+
+.conteiner .sidebar{
+    grid-column: span 1;
+    background: #73a068;
+}
+/*FIN CONFIGURACION GRID*/
+
+.conteiner .tiposDeFlores {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: green;
+}
