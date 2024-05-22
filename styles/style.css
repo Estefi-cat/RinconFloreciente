@@ -3,10 +3,13 @@
     padding: 0;
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
+    scroll-behavior: smooth;
 }
 
+
 body {
-    --dot-bg: #376e50;
+    --dot-bg: #f5e1ce; /*esto es una prueba*/
+    /*--dot-bg: #376e50;*/
     --dot-color: white;
     --dot-size: 1px;
     --dot-space: 22px;
@@ -39,6 +42,7 @@ body {
 .header .logo img{
     height: 70px;
     width: auto;
+    border-radius: 10px;
 }
 
 .header .nav-links{
@@ -66,11 +70,57 @@ body {
 
 /*FIN DE CONFIGURACION DEL NAV*/
 
+/*CONFIGURACION DEL NAV DEL TIPO DE FLORES*/
+
+.navFlores{
+    display: block;
+    justify-content:center;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    
+}
+
+.navFlores h2{
+    text-align: center;
+    text-shadow: 0 0 30px #09342f;
+}
+
+.navFlores ul{
+    list-style: none;
+    
+
+}
+
+.navFlores ul li{
+    display: inline-block;
+    margin: 10%;
+}
+
+.navFlores ul li:hover{
+    transform: scale(1.1);
+}
+
+.navFlores ul a{
+    color: #c0f0ce;
+    text-decoration: none;
+    /*border: 2px solid rgb(189, 205, 189);
+    border-radius: 6px;*/
+    
+}
+
+.navFlores ul a:hover{
+    background: #57d57d;
+}
+
+/*FIN DE CONFIGURACION DE NAV DEL TIPO DE FLORES*/
+
 /*CONFIGURACION DEL INDEX*/
 
 .imagenesIndex{
     width: 500px;
     height: auto;
+    border-radius: 10px;
 }
 
 .contenido .articulo .noticiaTitulo{
@@ -88,13 +138,13 @@ body {
 }
 
 .contenido .articulo{
-    text-align: center;
+    text-align:center;
 }
 
 .contenido .articulo .lead,
 .contenido .articulo p {
     padding: 20px;
-    text-align: justify;
+    text-align: left;
 }
 
 .contenido .articulo p{
@@ -130,7 +180,8 @@ body {
 .conteiner .header,
 .conteiner .footer{
     grid-column: 1/4;
-    background: #09342f;
+    background: #e8c39e; /*esta es una prueba*/
+    /*background: #09342f;*/
     color: #fff;
 }
 
@@ -140,13 +191,42 @@ body {
 
 .conteiner .sidebar{
     grid-column: span 1;
-    background: #73a068;
+    background: #5ccb5f; /*Esta es una prueba*/
+    /*background: #73a068;*/
+}
+
+.conteiner .sidebar div{
+    position: fixed;
+    width: 280px;
 }
 /*FIN CONFIGURACION GRID*/
-
-.conteiner .tiposDeFlores {
-    text-align: center;
+.conteiner .tiposDeFlores img{
+    height: auto;
+    padding: 25px;
+    margin: 30px 0px 20px 150px;
+    border-radius: 40px;
+    box-shadow: inset 0px 0px 10px 0 rgba(20, 20, 20, 0.2);
 }
+
+.conteiner .contenido .tiposDeFlores p{
+    border-bottom: 3px dotted green;
+    padding-bottom: 10px;;
+}
+
+#articulo1, #articulo2, #articulo3{
+    font-size: 30px;
+    text-shadow: 0 0 30px #08d36e;
+    margin-bottom: 20px;
+    text-align: center;
+<<<<<<< HEAD
+
+=======
+    border: 2px dashed #09342f;
+	border-radius: 10px;
+>>>>>>> 4b9050049e35c469ea4b251804df47785f030c14
+}
+
+
 a {
     text-decoration: none;
     color: green;
