@@ -190,15 +190,27 @@ body {
 }
 
 .conteiner .sidebar{
-    grid-column: span 1;
     background: #5ccb5f; /*Esta es una prueba*/
     /*background: #73a068;*/
+    padding: 10%;
+    text-align: center;
 }
 
 .conteiner .sidebar div{
-    position: fixed;
-    width: 280px;
+    border: 5px yellow dashed;
+    padding: 5%;
+
 }
+
+.conteiner .sidebar p{
+    margin-top: 3%;
+    font-style: italic;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.conteiner .sidebar
+
 /*FIN CONFIGURACION GRID*/
 .conteiner .tiposDeFlores img{
     height: auto;
@@ -218,12 +230,8 @@ body {
     text-shadow: 0 0 30px #08d36e;
     margin-bottom: 20px;
     text-align: center;
-<<<<<<< HEAD
-
-=======
     border: 2px dashed #09342f;
 	border-radius: 10px;
->>>>>>> 4b9050049e35c469ea4b251804df47785f030c14
 }
 
 
