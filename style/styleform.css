@@ -7,12 +7,15 @@
 	padding: 0;
 	font-family: "Montserrat", sans-serif;
 	font-size: 20px;
+	scroll-behavior: smooth;
 }
 
 
 
 body {
-    --dot-bg: #376e50;
+    /*--dot-bg: #376e50;*/
+	--dot-bg: #f5e1ce;
+	background: #e8c39e;
     --dot-color: white;
     --dot-size: 1px;
     --dot-space: 22px;
@@ -53,6 +56,7 @@ body {
 .header .logo img{
     height: 70px;
     width: auto;
+	border-radius: 10px;
 }
 
 .header .nav-links{
@@ -81,7 +85,8 @@ body {
 /*FIN DE CONFIGURACION DEL NAV*/
 
 .conteiner{
-    background: #f5e1ce;
+    /*background: white;*/
+	background: #e8c39e;
     width: 90%;
     max-width: 1000px;
     margin: 2em auto;
@@ -95,14 +100,16 @@ body {
 .conteiner > .contenido,
 .conteiner > .sidebar,
 .conteiner > .footer{
-    background: white;
+	background: #e8c39e;
+    /*background: white;*/
     padding: 20px;
 }
 
 .conteiner .header,
 .conteiner .footer{
     grid-column: 1/4;
-    background: #09342f;
+    /*background: #09342f;*/
+	background: #e8c39e;
     color: #fff;
 }
 

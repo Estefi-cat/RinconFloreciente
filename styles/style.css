@@ -118,7 +118,7 @@ body {
 /*CONFIGURACION DEL INDEX*/
 
 .imagenesIndex{
-    width: 500px;
+    width: 80%;
     height: auto;
     border-radius: 10px;
 }
@@ -155,6 +155,48 @@ body {
     font-size: 20px;
 }
 
+.historiaFlores {
+    padding: 2px
+    margin: 5 px;
+    text-align: left;
+    font-size: 15px;
+    font-style: italic;
+    border-radius: 10px;
+    border: 1px solid ;
+    }
+.historiaFlores:focus-visible {
+    border: 3px solid   #1b5b0c;
+    outline: none;
+    box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+    }
+.historiaBtnEnviar {
+    height: 45px;
+    line-height: 45px;
+    width: 30%;
+    background: #1b5b0c;
+    color:  #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .1s ease all;
+    }
+
+
+.historiaBtnMenu {
+    align-items: center;
+    height: 45px;
+    line-height: 45px;
+    width: 30%;
+    background: #1b5b0c;
+    color:  #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .1s ease all;
+                }
+
 /*FIN CONFIGURACION DEL INDEX*/
 
 /*CONFIGURACION GRID*/
@@ -190,15 +232,27 @@ body {
 }
 
 .conteiner .sidebar{
-    grid-column: span 1;
     background: #5ccb5f; /*Esta es una prueba*/
     /*background: #73a068;*/
+    padding: 10%;
+    text-align: center;
 }
 
 .conteiner .sidebar div{
-    position: fixed;
-    width: 280px;
+    border: 5px yellow dashed;
+    padding: 5%;
+
 }
+
+.conteiner .sidebar p{
+    margin-top: 3%;
+    font-style: italic;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.conteiner .sidebar
+
 /*FIN CONFIGURACION GRID*/
 .conteiner .tiposDeFlores img{
     height: auto;
@@ -213,17 +267,13 @@ body {
     padding-bottom: 10px;;
 }
 
-#articulo1, #articulo2, #articulo3{
+#articulo1, #articulo2, #articulo3, #tusFlores{
     font-size: 30px;
     text-shadow: 0 0 30px #08d36e;
     margin-bottom: 20px;
     text-align: center;
-<<<<<<< HEAD
-
-=======
     border: 2px dashed #09342f;
 	border-radius: 10px;
->>>>>>> 4b9050049e35c469ea4b251804df47785f030c14
 }
 
 
